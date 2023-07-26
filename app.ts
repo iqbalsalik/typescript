@@ -47,5 +47,3 @@ const myPromise = new Promise<string>((resolve,reject)=>{
 }).then((result)=>{
     console.log(result.split("W"))
 })
-
-console.log("something")
